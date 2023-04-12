@@ -127,10 +127,14 @@ li {
     text-align: center;
 }
 
+.anything .container .row {
+    justify-content: space-between;
+}
+
 .advantage-card {
     width: 28.3333333333333%;
     border: 1px solid transparent;
-    padding: 52px 0 0 0;
+    padding: 52px 6px 10px;
     border-radius: 20px;
     box-shadow: 10px 10px 30px 20px #F5F5F5;
 }
@@ -140,9 +144,11 @@ li {
 }
 
 .advantage-title {
+    margin-top: 28px;
     font-weight: 600;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 18px;
+    text-align: center;
     color: var(--title-color);
 }
 
@@ -152,7 +158,6 @@ li {
     line-height: 23px;
     color: var(--other-color);
     text-align: center;
-    padding: 0 10px;
 }
 
 
@@ -214,6 +219,19 @@ li {
     }
 }
 @media screen and (max-width: 1380px) {
+    .title {
+        font-size: 42px;
+    }
+    .title-desc {
+        font-size: 30px;
+    }
+    .advantage-title {
+        font-size: 20px;
+    }
+    .advantage-pic img {
+        width: 78px;
+        height: 78px;
+    }
     .header .container-fluid {
         padding: 15px 20px 0 45px;
     }
@@ -237,6 +255,19 @@ li {
     }
 }
 @media screen and (max-width: 1200px) {
+    .title {
+        font-size: 38px;
+    }
+    .title-desc {
+        font-size: 26px;
+    }
+    .advantage-title {
+        font-size: 16px;
+    }
+    .advantage-pic img {
+        width: 74px;
+        height: 74px;
+    }
     .links {
         margin-left: 30px;
         font-size: 18px;
@@ -350,6 +381,22 @@ li {
     }
 }
 @media screen and (max-width: 980px) {
+    .title {
+        font-size: 32px;
+    }
+    .title-desc {
+        font-size: 22px;
+    }
+    .advantage-title {
+        font-size: 15px;
+    }
+    .advantage-desc {
+        font-size: 12px;
+    }
+    .advantage-pic img {
+        width: 68px;
+        height: 68px;
+    }
     .header .container-fluid {
         padding: 10px 0 0 45px;
     }
@@ -377,6 +424,31 @@ li {
     }
 }
 @media screen and (max-width: 768px){
+    .advantage-card:nth-child(1),.advantage-card:nth-child(2),.advantage-card:nth-child(3) {
+        margin-top: 50px;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .title-desc {
+        font-size: 18px;
+    }
+    .anything .container .row {
+        justify-content: space-around;
+    }
+    .advantage-card {
+        width: 42%;
+    }
+    .advantage-title {
+        font-size: 16px;
+    }
+    .advantage-desc {
+        font-size: 12px;
+    }
+    .advantage-pic img {
+        width: 68px;
+        height: 68px;
+    }
     .carousel-dark .carousel-indicators [data-bs-target] {
         width: calc(30px / 100 * 55);
         height: calc(7px / 100 * 55);
@@ -393,6 +465,12 @@ li {
     }
 }
 @media screen and (max-width: 680px) {
+    .advantage-card:nth-child(1),.advantage-card:nth-child(2),.advantage-card:nth-child(3) {
+        margin-top: 50px;
+    }
+    .advantage-card {
+        box-shadow: 5px 5px 15px 10px #F5F5F5;
+    }
     .header .container-fluid {
         padding: 0 0 0 45px;
     }
@@ -410,8 +488,6 @@ li {
     .carousel-item .container {
         max-width: 565px;
     }
-}
-@media screen and (max-width: 680px) {
     .header .container-fluid {
         padding: 0 0 0 15px;
     }
@@ -429,5 +505,27 @@ li {
     }
     .photo-land {
         width: 100%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .title-desc {
+        font-size: 14px;
+    }
+    .advantage-card {
+        padding: 25px 6px 0;
+    }
+    .advantage-title {
+        font-size: 16px;
+    }
+    .advantage-desc {
+        font-size: 12px;
+    }
+    .advantage-pic img {
+        width: 50px;
+        height: 50px;
     }
 }
