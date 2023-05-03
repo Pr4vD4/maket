@@ -1,0 +1,141 @@
+@import "style.css";
+
+.wrapper {
+    background: rgba(255, 193, 151, 0.19);
+}
+
+.land-text {
+    font-size: 96px;
+}
+
+.product-carousel {
+    color: #53B0EE;
+}
+
+.land-desc {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.btn-talk {
+    padding: 16px 60px;
+    width: 40%;
+    background: #0E538C;
+}
+
+.build {
+    padding: 40px 0
+}
+
+.build .title {
+    color: var(--main-text-color);
+}
+
+.build .title-desc {
+    line-height: 30px;
+    color: var(--main-text-color);
+}
+
+.build__card_container {
+    margin-top: 80px;
+}
+
+.build__card_icon {
+    background: var(--background-color);
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+.build__card_desc {
+    text-align: center;
+}
+
+.build__card_desc .title-underdesc {
+    font-size: 15px;
+}
+
+.small {
+    padding: 50px 0;
+}
+
+.small .title {
+    font-size: 42px;
+}
+
+.small .title-desc {
+    padding: 0 22%;
+    color: #979797;
+    line-height: 48px;
+}
+
+.small__cards_grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0 80px;
+}
+
+.small__card {
+    box-shadow: 10px 10px 30px 20px #F5F5F5;
+    border-radius: 20px;
+    padding: 27px 30px 30px 40px;
+}
+
+.small__card_1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.small__card_2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.small__card_3 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.small__card_icon {
+    margin-left: 10px;
+    height: 77px;
+    width: 77px;
+    border-radius: 6px;
+}
+
+.small__card_1 .small__card_icon {
+  background: #F7ECDE;
+}
+
+.small__card_2 .small__card_icon {
+    background: rgba(248, 87, 94, 0.22);
+}
+
+.small__card_3 .small__card_icon {
+    background: rgba(139, 187, 198, 0.6);
+}
+
+.small__card_title-text {
+    font-size: 24px;
+    color: var(--link-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.small__card_desc .title-underdesc {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.deliver__wrapper {
+    border-radius: 20px;
+    margin-top: 80px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
