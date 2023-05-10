@@ -111,7 +111,7 @@
 }
 
 .small__card_1 .small__card_icon {
-  background: #F7ECDE;
+    background: #F7ECDE;
 }
 
 .small__card_2 .small__card_icon {
@@ -140,8 +140,8 @@
 .deliver__wrapper {
     border-radius: 20px;
     margin-top: 80px;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 .deliver__adv_wrapper {
@@ -206,16 +206,82 @@
     padding: 50px 0;
 }
 
-.disting__grid_cards {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+.disting__cards {
+    display: flex;
 }
 
 .disting__card {
     box-shadow: 0 10px 30px 0 #2639ED29;
+    border-radius: 14px;
+    padding: 35px 20px 35px 0;
+}
+
+.disting__card_img {
+    /*margin-left: 2rem;*/
+    /*margin-right: 2rem;*/
+    padding: 0 40px;
 }
 
 .disting__card_title-text {
     color: #0A093D;
+}
+
+.register-biz {
+    padding: 60px 0;
+
+}
+
+.container-biz {
+}
+
+.bg-grad1 {
+    padding: 60px 0;
+    border-radius: 12px;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(223, 231, 243, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(189, 213, 239, 1) 100%);
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-grad2 {
+    position: absolute;
+    top: -100%;
+    right: -100%;
+    height: 200%;
+    width: 200%;
+    background: radial-gradient(circle, rgb(235, 197, 211) 0%, rgba(255, 255, 255, 0) 60%);
+}
+
+.grad-content {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    height: 50%;
+    width: 100%;
+}
+
+
+
+.title-biz {
+    font-size: 46px;
+    line-height: 62px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-btns-biz .btn-start {
+    padding: 25px 80px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.container-btns-biz .btn-sign {
+    margin-left: 2rem;
+    border: 1px solid #0E538C;
+    font-size: 24px;
+    padding: 25px 100px;
+    color: #0E538C;
 }

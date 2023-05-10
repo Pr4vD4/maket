@@ -1,0 +1,82 @@
+@import "style_prod.css";
+
+.wrapper {
+    background: none;
+    position: relative;
+}
+
+.land-text {
+    background: linear-gradient(90.29deg, #243A73 3.51%, #FB5B01 117.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wrapper .carousel .btn-start {
+    background-color: var(--main-text-color);
+    transition: .3s ease-in-out;
+    box-shadow: 6px 6px 30px 6px #00000040;
+}
+
+.wrapper .carousel .btn-start:hover {
+    background-color: var(--link-color);
+    transition: .3s ease;
+    color: var(--background-color);
+}
+
+.gradient-element-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -48%;
+    background: url(../img/GradientBG.png) no-repeat;
+    overflow: hidden;
+}
+
+.text-land {
+    padding: 40px 20px;
+}
+
+.future-of-smart {
+    padding: 60px 0;
+}
+
+.future-of-smart .title {
+    color: var(--title-color);
+
+}
+
+.future-of-smart .title-underdesc {
+    color: #4E4E4E;
+}
+
+.future-of-smart .container-future-of-smart {
+    max-width: 1600px;
+}
+
+.future-of-smart .disting__card {
+    box-shadow: 10px 10px 30px 20px #F5F5F5;
+    padding: 30px;
+}
+
+.future-of-smart .disting__card_title-text {
+    color: var(--title-color);
+}
+
+.future-of-smart .disting__card-description {
+    color: var(--other-color);
+}
+
+.evaluation {
+    padding: 60px 0;
+}
+
+.evaluation .title {
+    padding: 0 20%;
+    color: var(--title-color);
+
+}
+
+.evaluation .title-underdesc {
+    color: #4E4E4E;
+}
