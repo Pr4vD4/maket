@@ -73,14 +73,6 @@ li {
     width: 100px;
 }
 
-.text-land {
-    width: 50%;
-}
-
-.photo-land {
-    width: 50%;
-}
-
 .wrapper-carousel {
 }
 
@@ -1126,12 +1118,6 @@ li {
     }
     .carousel-item .container {
         max-width: 100%;
-    }
-    .text-land {
-        width: 100%;
-    }
-    .photo-land {
-        width: 100%;
     }
 }
 @media screen and (max-width: 576px) {
