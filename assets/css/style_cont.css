@@ -1,5 +1,9 @@
 @import "style_prod.css";
 
+:root {
+    --container-1700: 1700px;
+}
+
 .wrapper {
     background: none;
     position: relative;
@@ -79,4 +83,130 @@
 
 .evaluation .title-underdesc {
     color: #4E4E4E;
+}
+
+.evaluation-row-img {
+    border-radius: 6px;
+    background-color: #F2F2F2;
+    min-height: 100%;
+    max-width: 50%;
+}
+
+.evaluation-row-text {
+    padding: 120px 40px;
+}
+
+.evaluation-title h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.evaluation-text h4{
+    font-size: 15px;
+    line-height: 22px;
+    color: #737576;
+    padding: 0 100px 0 0;
+}
+
+.benefits {
+    padding: 60px 0 0;
+}
+
+.benefits .title {
+    padding: 0 30%;
+}
+
+.benefits .title-container {
+    --margin-beni: 125%;
+    background: #F7ECDE;
+    padding: 40px 0 250px;
+    position: relative;
+    margin-bottom: calc(var(--margin-beni)/4);
+}
+
+.container-benefits {
+    max-width: 1700px;
+    position: absolute;
+    top: var(--margin-beni);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.benefit-card {
+    box-shadow: 4px 4px 15px 0 #F2F2F2;
+    border-radius: 10px;
+    padding: 35px 30px;
+    background-color: white;
+}
+
+.benefit-card-desc span {
+    font-size: 15px;
+    line-height: 22px;
+    color: #737576;
+}
+
+.touch {
+    margin: 30px 0 120px;
+    padding: 60px 0;
+    background-color: var(--main-text-color);
+    position: relative;
+}
+
+.touch-map {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background: url(../img/Map.png) center;
+    background-size: cover;
+}
+
+.container-touch {
+    position: relative;
+    max-width: var(--container-1700);
+}
+
+.title-touch {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+}
+
+.form-touch {
+    padding: 0 30px;
+    z-index: 100000;
+}
+
+.touch-input {
+    border-radius: 11px;
+    padding: 18px 30px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.mail_number .touch-input {
+    width: 47%;
+}
+
+.touch-area {
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 11px;
+    height: 25%;
+    padding: 18px 30px;
+}
+
+.btn-touch {
+    background-color: white;
+    color: var(--main-text-color);
+    font-weight: 600;
+    border-radius: 8px;
+    align-self: self-start;
+    padding: 15px 25px;
 }
