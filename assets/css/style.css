@@ -496,6 +496,10 @@ li {
     padding: 60px 0;
 }
 
+.ahead .col-xl-5 {
+    width: 41.66666667%;
+}
+
 .desc-block > *{
     line-height: 24px;
     padding-right: 10%;
@@ -653,6 +657,10 @@ li {
 
 .sub-news {
     padding: 80px;
+}
+
+.sub-news .col-xl-5 {
+    width: 41.66666667%
 }
 
 .sub-news .wrapper-search {
