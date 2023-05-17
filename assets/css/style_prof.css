@@ -1,11 +1,13 @@
 @import "bootstrap.min.css";
 @import "style_cont.css";
 
+.page {
+    height: 100%;
+}
+
 .overlay {
-    height: 100vh;
     background: #2A3551;
     width: 20%;
-    /*padding: 40px 30px;*/
 }
 
 .overlay-header {
@@ -70,7 +72,7 @@
 }
 
 .profile-header {
-    padding: 30px 0;
+    padding: 30px 30px 30px 0;
 }
 
 .profile-icons {
@@ -88,4 +90,194 @@
     position: absolute;
     bottom: -10px;
     right: -20px;
+}
+
+.back-to, .back {
+    text-decoration: none;
+}
+
+.back-to {
+    margin-left: .5rem;
+    color: #0000005C;
+    font-size: 15px;
+}
+
+.profile-background {
+    border-radius: 20px;
+}
+
+#background-prof {
+    --bs-gutter-x: 0;
+}
+
+.container-bg-pr {
+    --margin-beni: 125%;
+    border-radius: 20px;
+    width: 100%;
+    height: 30vh;
+    background: url(../img/ProfileBG.png) center;
+    background-size: cover;
+    position: relative;
+    /*margin-bottom: calc(var(--margin-beni)/2.9);*/
+}
+
+.btn-edit {
+    padding: 17px 40px;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.3);
+    backdrop-filter: blur(2px);
+    transition: .25s ease;
+    position: absolute;
+    top: 15%;
+    right: 3%;
+}
+
+.btn-edit:hover {
+    background: rgba(229, 229, 229, 0.4);
+    transition: .3s ease-in-out;
+    color: #737576;
+}
+
+.profile-card {
+    background-color: white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 15px 0 #0000001A;
+    position: absolute;
+    bottom: -200%;
+    left: 3%;
+}
+
+.person-info {
+    margin-top: 1rem;
+}
+
+.person-info-text {
+    color: rgba(0, 0, 0, 0.36);
+    font-size: 15px;
+}
+
+.profile-person-icon {
+    margin-right: .5rem;
+    height: 100%;
+}
+
+.btn-upload, .btn-details {
+    width: 90%;
+    border-radius: 6px;
+    padding: 14px 0;
+}
+
+.btn-upload {
+    background-color: var(--main-text-color);
+    color: var(--bs-white);
+}
+
+.btn-details {
+    color: var(--main-text-color);
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.side {
+    padding: 0 0 50px 0;
+}
+
+.choice {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.choice:nth-child(1) {
+    margin-right: 2.5rem;
+}
+
+.choice:nth-child(2) {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.choice-active {
+    color: var(--main-text-color);
+    font-weight: 600;
+}
+
+.choice-active::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: black;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+
+.company-info {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.comp-info * {
+    font-size: 20px;
+}
+
+.comp-info-title {
+    color: rgba(0, 0, 0, 0.36);
+}
+
+.comp-info-comp {
+    color: var(--main-text-color);
+    font-weight: 600;
+}
+
+.company-info .col-xl-6 {
+    padding: 40px 40px;
+}
+
+.business-cat {
+    color: var(--main-text-color);
+    font-size: 20px;
+}
+
+.div-line {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.half-line {
+    height: 100%;
+    width: 40%;
+    background-color: #0E538C;
+}
+
+.company-certificates {
+    border-radius: 20px;
+    background-color: var(--main-text-color);
+    padding: 30px 40px;
+}
+
+.company-certificates .company-name {
+    font-size: 20px;
+}
+
+.img-certificate {
+    margin-right: 1rem;
+    border-radius: 4px;
+}
+
+.certificate-name {
+    color: #D9D9D9;
+    font-size: 16px;
+}
+
+.link-certificate {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
 }
