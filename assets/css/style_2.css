@@ -1,0 +1,65 @@
+@import "style_prof.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.orange {
+    color: #F7A928;
+    font-weight: 600;
+}
+
+.relationship {
+    font-weight: 600;
+    background: linear-gradient(96.68deg, #DEEEF7 2.88%, rgba(222, 238, 247, 0) 124.33%);
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.header {
+    flex-grow: 0;
+}
+
+.footer {
+    flex-grow: 0;
+}
+
+.bp-title {
+    margin-top: 100px;
+}
+
+.bp-title-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    line-height: 108px;
+    font-weight: 400;
+
+}
+
+.w {
+    max-width: 1600px;
+}
+
+.bp-title-image {
+    background: linear-gradient(96.68deg, #DEEEF7 2.88%, rgba(222, 238, 247, 0) 60%);
+}
+
+.trust {
+    margin-top: 120px;
+}
+
+.title-text-small {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #656464;
+}
